@@ -78,7 +78,7 @@ AI tools used
 
 One AI suggestion that was rejected
 
-- Suggested change: an AI suggestion recommended moving rate-limiting state to Redis (or a database) and adding Docker-based deployment to unify environment configuration. Reason rejected: Redis or Docker were considered out-of-scope and unnecessary for the single-process, in-memory assessment required by the task, so those changes were not applied. The suggestion was valid for production hardening but out-of-scope for this submission.
+- Suggested change: an AI suggestion recommended moving rate-limiting state to Redis (or a database) and adding Docker-based deployment to unify environment configuration. Reason to reject is because Redis or Docker were considered out-of-scope and unnecessary for the single-process, in-memory assessment required by the task, so those changes were not applied. The suggestion was valid for production hardening but out-of-scope for this submission.
 
 What I would do next with more time
 
